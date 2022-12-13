@@ -1,4 +1,5 @@
 import React from "react";
+const board_id = process.env.REACT_APP_BOARD_ID;
 
 export const CurrentBoard = () => {
   return (
