@@ -6,7 +6,7 @@ export const CurrentBoard = () => {
     <div>
       <iframe
         title="OIC Vestaboard"
-        src`"https://simulator.vestaboard.com/?boardId=${board_id}`
+        src=`https://simulator.vestaboard.com/?boardId=${board_id}`
         width="680"
         height="379.7"
         scrolling="no"
