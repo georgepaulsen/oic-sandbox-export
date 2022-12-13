@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { readFile, utils } from "xlsx";
 import { Button, Tab, ButtonGroup, Input } from "./Styling";
-const api_key = "9499054f-a822-4107-b312-f22d0be572ef";
-const api_secret = "NzI2YmQyNjUtYTg4NS00ZDVhLTkyN2UtYTUxNmEyZWM0ZWEy";
-const sub_id = "89f9edae-049e-4af1-8c58-171dd464f9ad";
+const api_key = process.env.API_KEY;
+const api_secret = process.env.API_SECRET;
+const sub_id = process.env.SUB_ID;
 
 function postToBoard(report) {
   console.log(api_key, api_secret, sub_id);
